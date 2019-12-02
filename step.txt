@@ -1,0 +1,23 @@
+1. export twitter to csv dengan params brand = "adidas" dan lang = "en"
+2. baca file untuk melakukan cleansing data
+3. bikin file csv baru dengan nilai sentiment
+4. bikin dashboard
+  o> bar chart => source
+  o> line chart => created_at
+  o>  bar chart => sentimen
+  o> top 10 retweet count and favourite count
+  o> word cloud positif dan negatif
+
+
+
+
+
+  ==BACKUP==
+  # s = df_source["source"].value_counts().rename("jumlah_sumber")
+# df_source = df_source.join(s, on="source")
+# print(df_source)
+
+# sumber = df["source"].unique().tolist()
+# sumber_unik = df["source"].nunique()
+# print(sumber)
+# print(sumber_unik)
